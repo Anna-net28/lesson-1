@@ -1,0 +1,41 @@
+.holiday {
+    height: auto;
+}
+
+.wehave {
+    gap: 39px;
+    display: flex;
+    flex-direction: column;
+}
+
+.holiday-group {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
+}
+
+.holiday-group__card {
+    display: flex;
+    gap: 39px;
+    min-height: 228px;
+    position: relative;
+}
+
+.holiday-group__link {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    z-index: 50;
+    padding: 0 40px;
+}
+
+.holiday-group__img {
+    object-fit: cover;
+}

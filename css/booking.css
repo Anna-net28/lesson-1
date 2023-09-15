@@ -1,0 +1,189 @@
+.booking {
+    background: #440F51;
+    margin-bottom: 100px;
+}
+
+.booking__container {
+    padding: 80px 130px 0 130px;
+}
+
+.hall {
+    margin-bottom: 60px;
+}
+
+.check {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+}
+
+.booking__subtitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.subtitle {
+    margin-bottom: 24px;
+}
+
+.hall__btn {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    width: 25%;
+    height: 55px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 7px 15px 8px 15px;
+}
+
+.entertainment {
+    padding: 0 100px;
+    margin-bottom: 67px;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.entertainment__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-choice__label {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.font-size {
+    font-size: 14px;
+    display: block;
+}
+
+.radio {
+    margin-right: 10px;
+    width: 27px;
+    height: 27px;
+    fill: #FFF;
+}
+
+.checkbox {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background: #FFF;
+}
+
+.recording {
+    padding-bottom: 80px;
+}
+
+.recording__choice {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    padding: 0 100px;
+    max-width: 100%;
+}
+
+.form-choice__input {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input {
+    display: block;
+    height: 52px;
+    width: 100%;
+    margin-bottom: 14px;
+    padding: 12px 20px;
+}
+
+.form-choice__date {
+    color: #211E1E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 12px 20px;
+    width: 43%;
+}
+
+.form-choice__time {
+    color: #211E1E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 12px 20px;
+    width: 43%;
+}
+
+.recording__group {
+    display: flex;
+    gap: 32px;
+    width: 33%;
+    height: 52px;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.howmany {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 52px;
+    width: 33%;
+    display: flex;
+    padding: 12px 20px;
+    margin-bottom: 19px;
+}
+
+.form-choice__btn {
+    border-radius: 10px;
+    background: #FFF;
+    color: #6C0287;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding: 16px 50px;
+    height: 60px;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 100px;
+    margin-top: 26px;
+}

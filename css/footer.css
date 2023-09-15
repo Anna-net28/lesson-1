@@ -1,0 +1,118 @@
+.footer {
+    background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+    padding-top: 55px;
+}
+
+.footer__container {
+    padding: 0 130px 0 130px;
+}
+
+.footer__contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 156px;
+}
+
+.footer-contact__group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.footer-contacts {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 21px;
+}
+
+.contacts__item {
+    width: 100%;
+    display: flex;
+    height: 28px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.contacts__item:first-child {
+    margin-bottom: 39px;
+    height: 61px;
+    width: 80%;
+}
+
+.contacts__item:first-child::before {
+    content: url(../img/location.svg);
+    display: block;
+    width: 35px;
+}
+
+.contacts__item:nth-child(2)::before {
+    content: url(../img/phone-call.svg);
+    display: block;
+    width: 35px;
+    height: 32px;
+}
+
+.contacts__item:last-child::before {
+    content: url(../img/mail.svg);
+    display: block;
+    width: 35px;
+    height: 32px;
+}
+
+.contacts__link {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #fff;
+    padding-left: 28px;
+}
+
+.footer-social {
+    display: block;
+}
+
+.social {
+    padding: 0;
+    margin-right: 10px;
+}
+
+.social__item {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.maps {
+    display: flex;
+}
+
+.footer__copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__name {
+    color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+margin-bottom: 6px;
+}
+
+.footer__adress {
+    text-align: end;
+}
+
+.footer__link {
+    color: #FFF;
+}

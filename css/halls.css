@@ -1,0 +1,44 @@
+.halls {
+    display: block;
+}
+
+.halls-img {
+    padding: 0;
+    display: flow-root;
+}
+
+.halls-img__group {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    max-width: 49%;
+}
+
+.halls-img__group:nth-child(2) {
+    margin-right: 0;
+}
+
+.halls-img__group:nth-child(4) {
+    float: right;
+    margin-right: 0;
+}
+
+.halls-img__title {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    width: 78%;
+}
+
+.halls-img__img {
+    max-width: 99.8%;
+    object-fit: cover;
+}
