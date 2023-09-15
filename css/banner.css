@@ -16,7 +16,7 @@
     content: url(../img/banner.png);
     position: absolute;
     top: 7%;
-    left: 43.4%;
+    left: 40%;
 }
 
 .banner__title {
@@ -92,6 +92,6 @@
 .banner__down {
     position: absolute;
     top: 75%;
-    left: 47%;
+    left: 43%;
     z-index: 50;
 }

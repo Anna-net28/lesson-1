@@ -19,3 +19,7 @@ git add .
 git commit -m "проект создан"
 git diff --color-words
 git push
+git add .
+git commit -m "banner"
+git diff --color-words
+git push
