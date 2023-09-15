@@ -23,3 +23,7 @@ git add .
 git commit -m "banner"
 git diff --color-words
 git push
+git add .
+git commit -m "header"
+git diff --color-words
+git push
