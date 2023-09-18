@@ -78,15 +78,18 @@
 }
 
 .banner__booking {
+    
     border-radius: 10px;
     background: #6C0287;
+    margin-top: 150px;
+    padding: 25px 69px;
     color: #FFF;
     font-size: 26px;
     font-weight: 700;
     line-height: 30px;
     text-transform: uppercase;
-    padding: 25px 69px;
-    margin-top: 150px;
+    box-shadow: 0 0 0 5px #6C0287, 0 0 10px 5px #6C0287;
+    border: 1px solid #6C0287;
 }
 
 .banner__down {

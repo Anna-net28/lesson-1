@@ -44,6 +44,7 @@
     text-transform: uppercase;
     border-radius: 8px;
     background: #FFF;
+    border: 1px solid #fff;
     padding: 7px 15px 8px 15px;
 }
 
@@ -169,7 +170,7 @@
 
 .form-choice__btn {
     border-radius: 10px;
-    background: #FFF;
+    background: #fff;
     color: #6C0287;
     font-size: 22px;
     font-style: normal;
@@ -178,6 +179,7 @@
     text-transform: uppercase;
     padding: 16px 50px;
     height: 60px;
+    border: 1px solid #fff;
 }
 
 .btn {

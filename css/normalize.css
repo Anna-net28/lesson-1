@@ -117,6 +117,11 @@ progress {
     vertical-align: baseline;
 }
 
+blockquote,
+figure {
+    margin: 0;
+}
+
 textarea {
     overflow: auto;
 }

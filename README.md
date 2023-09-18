@@ -27,3 +27,7 @@ git add .
 git commit -m "header"
 git diff --color-words
 git push
+git add .
+git commit -m "header,banner,boocing,reviews изменен border у кнопок, выстроен блок отзывы flexами"
+git diff --color-words
+git push
