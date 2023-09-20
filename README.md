@@ -35,3 +35,7 @@ git add .
 git commit -m "comit"
 git diff --color-words
 git push
+git add .
+git commit -m "block,halls,header,holiday,questions,index-редактирование блоков"
+git diff --color-words
+git push

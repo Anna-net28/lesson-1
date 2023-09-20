@@ -1,8 +1,17 @@
+.questions__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .questions__item {
     font-weight: 700;
     font-size: 24px;
     padding: 30px 70px;
-    margin-bottom: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 87px;
 }
 
 .questions__item-wite {
@@ -17,25 +26,22 @@
 
 .questions__item:nth-child(odd):after {
     content: "";
-    display: inline-block;
+    display: inline-flex;
     background-image: url(../img/open.svg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 46px;
     height: 46px;
-    float: right;
-    margin: -8px 0;
+    
 }
 
 .questions__item:nth-child(even):after {
     content: "";
-    display: inline-block;
+    display: inline-flex;
     background-image: url(../img/openwite.svg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 46px;
     height: 46px;
-    float: right;
-    margin: -8px 0;
 }
 

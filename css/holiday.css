@@ -13,14 +13,14 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    max-width: 100%;
+    
 }
 
 .holiday-group__card {
     display: flex;
-    gap: 39px;
     min-height: 228px;
     position: relative;
+    width: 35%;
 }
 
 .holiday-group__link {
@@ -38,4 +38,5 @@
 
 .holiday-group__img {
     object-fit: cover;
+    width: 100%;
 }

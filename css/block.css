@@ -1,17 +1,23 @@
-.block {
-    display: block;
-    position: relative;
+.about-us {
+    display: inline-flex;
+    gap: 80px;
+}
+
+.about-us__image {
+    width: 50%;
+    display: flex;
 }
 
 .about-us__img {
-    display: inline-block;
-    margin-right: 73px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .about-us__column {
-    max-width: 500px;
-    display: inline-block;
-    vertical-align: top;
+    width: 43%;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 39px;
 }
 
 .about-us__text {
@@ -19,13 +25,18 @@
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
-    text-align: left;
-    margin-bottom: 39px;
 }
 
 .block-quote {
     margin: 0;
-    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.block-quote__cite {
+    display: flex;
+    gap: 30px;
+    width: 70%;
 }
 
 .block-quote__text {
@@ -35,7 +46,7 @@
     letter-spacing: 0em;
     text-transform: uppercase;
     margin: 0;
-    max-width: 400px;
+    padding: 10px 53px 0 0;
 }
 
 .block-quote__text::before {
@@ -54,12 +65,13 @@
     line-height: 50px;
     letter-spacing: 0em;
     color: rgba(108, 2, 135, 1);
-    transform: rotate(180deg);
+    transform: rotate(360deg);
 }
 
 .block-quote__images {
-    margin-left: 28%;
-    margin-top: 39px;
+    height: 80px;
+    display: flex;
+    align-items: center;
 }
 
 .block-quote__name {
@@ -67,10 +79,5 @@
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
-    float: right;
-    max-width: 249px;
-    margin-top: 39px;
-    display: inline-block;
-    vertical-align: middle;
 }
 
