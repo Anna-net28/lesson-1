@@ -5,7 +5,7 @@
 
 .header__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     min-height: 66px;
     padding: 30px 0 50px 0;
