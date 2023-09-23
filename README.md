@@ -43,3 +43,7 @@ git add .
 git commit -m "header убрала падинги, выровняла margin по центру, добавила максимальную ширину,justify-content: space-evenly;, а gap бы убран, видимо еще не прогрузились данные"
 git diff --color-words
 git push
+git add .
+git commit -m "убрала margin"
+git diff --color-words
+git push
