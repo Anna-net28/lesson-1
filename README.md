@@ -47,3 +47,7 @@ git add .
 git commit -m "убрала margin"
 git diff --color-words
 git push
+git add .
+git commit -m "добавила margin, space-between, max-width:1180px"
+git diff --color-words
+git push
